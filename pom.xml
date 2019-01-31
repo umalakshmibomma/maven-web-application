@@ -85,18 +85,18 @@
 
 	</dependencies>
 	
-	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8085/mithun/repository/flipkart-releases/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/mithun/repository/flipkart-snapshot/</url>
-	    </snapshotRepository>
-	</distributionManagement>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>CICD-releases</name>
+        <url>http://172.20.161.75:8081/artifactory/CICD_maven_app</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>CICD-snapshots</name>
+        <url>http://172.20.161.75:8081/artifactory/CICD_maven_app</url>
+    </snapshotRepository>
+</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
