@@ -11,7 +11,7 @@
 </head>
 </head>
 <body bgcolor="green">
-<h1 align="center">Welcome to Wipro Technologies.</h1>
+<h1 align="center">Welcome to Wipro Advanced Technologies.</h1>
 <br /><br />
 <h2 align="center">The vision of Wipro includes being a leader in areas of business, customer and people. The company aims to be among the best IT company in India and the world. Its goals also include being the first choice among customers and employees</h2>
 <hr>
