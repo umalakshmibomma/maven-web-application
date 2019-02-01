@@ -1,4 +1,3 @@
-
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
@@ -11,27 +10,16 @@
 <link href="${mithunlogo}" rel="icon">
 </head>
 </head>
-<body>
-<h1 align="center">Welcome to Mithun Technologies.</h1>
-<h1 align="center">Very Good Training center for DevOps in Maratha Halli and also for Job Assitance... and Job Support also...Teaching Real Time scnerios</h1>
+<body bgcolor="green">
+<h1 align="center">Welcome to Wipro Technologies.</h1>
+<h1 align="center">The vision of Wipro includes being a leader in areas of business, customer and people. The company aims to be among the best IT company in India and the world. Its goals also include being the first choice among customers and employees</h1>
 <hr>
-<div style="text-align: center;">
-	<span>
-		<img src="${mithunlogo}" alt="" width="100"/>
 
-	</span>
-	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli,Opp To Madhurai Iddly House
-		Bangalore.
-		+91-9980923226
-	</span>
-</div>
 <hr>
 	<p> Service : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">Get Employee Details </p>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2018 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+<p align=center>Wipro Technologies - 	Digital Strategy, Business Consulting and IT Services.</p>
+<p align=center><small>Copyrights 2018 by <a href="https://www.wipro.com/en-IN/">Wipro Technologies</a> </small></p>
 
 </body>
 </html>
