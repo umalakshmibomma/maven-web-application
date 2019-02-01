@@ -20,6 +20,7 @@
 
 	<properties>
 		<!-- versions -->
+		<artifact_url></artifact_url>
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
@@ -97,12 +98,12 @@
     <repository>
         <id>central</id>
         <name>CICD-releases</name>
-        <url>http://172.20.161.75:8081/artifactory/CICD_maven_app</url>
+        <url>http://${artifact_url}:8081/artifactory/CICD_maven_app</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>CICD-snapshots</name>
-        <url>http://172.20.161.75:8081/artifactory/CICD_maven_app</url>
+        <url>http://${artifact_url}:8081/artifactory/CICD_maven_app</url>
     </snapshotRepository>
 </distributionManagement>
 	
