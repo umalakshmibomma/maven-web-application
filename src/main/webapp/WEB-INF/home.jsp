@@ -6,13 +6,14 @@
 <head>
 <spring:url value="/resources/images/mithunlogo.jpg" var="mithunlogo" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>Wipro- Home Page</title>
 <link href="${mithunlogo}" rel="icon">
 </head>
 </head>
 <body bgcolor="green">
 <h1 align="center">Welcome to Wipro Technologies.</h1>
-<h1 align="center">The vision of Wipro includes being a leader in areas of business, customer and people. The company aims to be among the best IT company in India and the world. Its goals also include being the first choice among customers and employees</h1>
+<br /><br />
+<h2 align="center">The vision of Wipro includes being a leader in areas of business, customer and people. The company aims to be among the best IT company in India and the world. Its goals also include being the first choice among customers and employees</h2>
 <hr>
 
 <hr>
