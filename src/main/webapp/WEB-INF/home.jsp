@@ -1,3 +1,4 @@
+
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
@@ -10,17 +11,14 @@
 <link href="${mithunlogo}" rel="icon">
 </head>
 </head>
-<body bgcolor="green">
-<h1 align="center">Welcome to Wipro Advanced Technologies.</h1>
+<body bgcolor="grey">
+<h1 align="center">Welcome to Cloud Migration Studio</h1>
+<h3>Wipro’s ‘Cloud Migration Studio’ is a unique model to deliver throttled migration for different workloads while reducing risks.</h3>
 <br /><br />
-<h2 align="center">The vision of Wipro includes being a leader in areas of business, customer and people. The company aims to be among the best IT company in India and the world. Its goals also include being the first choice among customers and employees</h2>
-<hr>
-
-<hr>
-	<p> Service : <a href="${pageContext.request.contextPath}/services/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <p align=center>Wipro Technologies - 	Digital Strategy, Business Consulting and IT Services.</p>
 <p align=center><small>Copyrights 2018 by <a href="https://www.wipro.com/en-IN/">Wipro Technologies</a> </small></p>
+<marquee bgcolor="yellow">Spirit of Wipro represents the core values of Wipro which act as the guiding principles for our culture and actions. </marquee>
 
 </body>
 </html>
