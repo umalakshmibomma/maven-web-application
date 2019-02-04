@@ -16,7 +16,7 @@
 </head>
 </head>
 <body bgcolor="lightgray">
-<img src="wipro.jpg" height="50" weight="100" />
+<img src="/resources/images/wipro.jpg" height="50" weight="100" />
 <h1 bgcolor="white" align="center">Welcome to Cloud Migration Studio</h1>
 <img  align="centre" src="wipro.png" height=300" weight="800"/>
 <h3>Wipro's "Cloud Migration Studio" is a unique model to deliver throttled migration for different workloads while reducing risks.</h3>
