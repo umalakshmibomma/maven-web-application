@@ -15,6 +15,7 @@
 <link href="${mithunlogo}" rel="icon">
 </head>
 </head>
+good morning
 <body bgcolor="lightgray">
 <img src="/resources/images/wipro.jpg" height="50" weight="100" />
 <h1 bgcolor="white" align="center">Welcome to Cloud Migration Studio</h1>
