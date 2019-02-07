@@ -1,0 +1,13 @@
+yum install -y git
+sudo yum install java-1.8.0-openjdk-devel -y
+sleep 20
+export JAVA_HOME=/usrlib/jvm/java-1.8.0-openjdk.x86_64
+cd /usr/local
+mkdir maven_home
+cd maven_home
+sudo yum install -y wget
+sleep 10
+wget http://mirrors.estointernet.in/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz
+tar -xvf apache-maven-3.6.0-bin.tar.gz
+export MAVEN_HOME=/usr/local/maven_home/apache-maven-3.6.0
+export PATH=$PATH:$JAVA_HOME/bin:$MAVEN_HOME/bin
