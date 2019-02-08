@@ -9,7 +9,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <marquee bgcolor="blue">spirit of wipro</marquee>
+  
   <marquee bgcolor="yellow">Welcome to Wipro </marquee>
 <spring:url value="/resources/images/mithunlogo1.jpg" var="mithunlogo" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
