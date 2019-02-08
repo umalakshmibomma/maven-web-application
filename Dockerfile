@@ -1,3 +1,5 @@
 FROM tomcat:8
-
-copy target/*.war /usr/local/tomcat/webapps
+USER root
+copy context.xml /usr/local/tomcat/webapps/manager/META-INF/context.xml
+copy tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
+copy *.war /usr/local/tomcat/webapps
