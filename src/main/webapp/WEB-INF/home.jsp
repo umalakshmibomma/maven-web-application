@@ -10,7 +10,7 @@
 <html>
 <head>
   
-  <marquee bgcolor="yellow">Welcome to Wipro </marquee>
+
 <spring:url value="/resources/images/mithunlogo1.jpg" var="mithunlogo" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Wipro- Home Page</title>
