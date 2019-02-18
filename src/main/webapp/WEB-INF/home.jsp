@@ -25,7 +25,7 @@
 <h3>Wipro's "Cloud Migration Studio" is a unique model to deliver throttled migration for different workloads while reducing risks.</h3>
 <hr>
 <p align=center>Wipro Technologies - 	Digital Strategy, Business Consulting and IT Services.</p>
-<p align=center><small>Copyrights 2018 by <a href="https://www.wipro.com/en-IN/">Wipro Technologies</a> </small></p>
+<p align=center><small>Copyrights 2018 by <a href="http://tomcat.apache.org/">Apache Tomcat</a> </small></p>
 <marquee bgcolor="yellow">Spirit of Wipro represents the core values of Wipro which act as the guiding principles for our culture and actions. </marquee>
 
 </body>
