@@ -27,6 +27,6 @@
 <p align=center>Wipro Technologies - 	Digital Strategy, Business Consulting and IT Services.</p>
 <p align=center><small>Copyrights 2018 by <a href="http://tomcat.apache.org/">Apache Tomcat</a> </small></p>
 <marquee bgcolor="yellow">Spirit of Wipro represents the core values of Wipro which act as the guiding principles for our culture and actions. </marquee>
-
+today date is 22/2/2019
 </body>
 </html>
