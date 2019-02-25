@@ -19,7 +19,7 @@
 </head>
 
 <body bgcolor="lightgray">
-<today is monday>
+today is monday
 <h1 bgcolor="white" align="center">Welcome to Cloud Migration Studio</h1>
 <img  align="centre" src="wipro.png" height=300" weight="8
 <h3>Wipro's "Cloud Migration Studio" is a unique model to deliver throttled migration for different workloads while reducing risks.</h3>
