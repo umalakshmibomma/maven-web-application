@@ -26,12 +26,16 @@ steps:
     workingDirectory: target
 - task: CopyFiles@2
   inputs:
-    contents: '**/*.zip'
+    contents: '**/*.war'
     targetFolder: '$(build.artifactStagingDirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
-    artifactName: 'zip'
+    artifactName: 'war'
     pathToPublish: '$(build.artifactStagingDirectory)'
-
+- task: AzureRmWebAppDeployment@3
+  inputs:
+    azureSubscription: 'BLDC_POC'
+    WebAppName: 'devops-cicd-demo'
+    Package: '$(System.DefaultWorkingDirectory)/**/*.war'
 
    
