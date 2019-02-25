@@ -34,7 +34,7 @@ steps:
     pathToPublish: '$(build.artifactStagingDirectory)'
 - task: AzureRmWebAppDeployment@3
   inputs:
-    azureSubscription: 'BLDC_POC'
+    azureSubscription: 'BLDC_POC (5a825fe0-c29b-42cb-9d14-75b5e949a73e)'
     WebAppName: 'devops-cicd-demo'
     Package: '$(System.DefaultWorkingDirectory)/**/*.war'
 
