@@ -28,6 +28,5 @@ steps:
   inputs:
     artifactName: 'war'
     pathToPublish: '$(build.artifactStagingDirectory)'
-- task: DownloadBuildArtifacts@0
-  inputs:
+
    
