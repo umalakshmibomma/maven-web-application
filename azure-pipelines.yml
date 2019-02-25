@@ -20,13 +20,18 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: CmdLine@2
+  inputs:
+    script: 'zip maven-web-application.zip maven-web-application.war' 
+    workingDirectory: target
 - task: CopyFiles@2
   inputs:
-    contents: '**/*.war'
+    contents: '**/*.zip'
     targetFolder: '$(build.artifactStagingDirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
-    artifactName: 'war'
+    artifactName: 'zip'
     pathToPublish: '$(build.artifactStagingDirectory)'
+
 
    
