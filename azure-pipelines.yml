@@ -31,7 +31,6 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     artifactName: 'war'
-    pathToPublish: '/usr/local/tomcat/webapps'
-
-
-   
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    publishLocation: 'FilePath'
+    targetPath: '/usr/local/tomcat/webapps'
