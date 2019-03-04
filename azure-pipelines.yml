@@ -30,7 +30,5 @@ steps:
     targetFolder: '$(build.artifactStagingDirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
-    artifactName: 'war'
+    artifactName: 'maven-web-application'
     pathToPublish: '$(Build.ArtifactStagingDirectory)'
-    publishLocation: 'FilePath'
-    targetPath: '/usr/local/tomcat/webapps'
